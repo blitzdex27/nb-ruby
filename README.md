@@ -36,6 +36,18 @@ rbenv global 3.1.2   # set the default Ruby version for this machine
 rbenv local 3.1.2    # set the Ruby version for this directory
 ```
 
+## Install `rbenv-gemset`
+
+```
+git clone https://github.com/jf/rbenv-gemset.git $HOME/.rbenv/plugins/rbenv-gemset
+```
+
+On project directory:
+```
+echo '.gems' > .rbenv-gemsets
+```
+
 ## References
 
 - https://github.com/rbenv/ruby-build#readme
+- https://github.com/jf/rbenv-gemset
