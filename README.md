@@ -12,6 +12,11 @@ Install ruby-build plugin
 brew install ruby-build
 ```
 
+Set this command inside ~/.zshrc if not present
+```
+eval "$(rbenv init -)"
+```
+
 Install ruby version
 ```
 # list latest stable versions:
